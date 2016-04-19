@@ -166,10 +166,25 @@ header.page-header .inner h1 {
     clear: right;
   }
 
-  .browser.notjquery iframe{
-    padding: 1rem 0;
-  }
 }
+
+.embedContainer{
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin: 0.5rem 0;
+}
+
+.notjquery .embedContainer iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
 .old-ie-message {
   display: none;
 }
