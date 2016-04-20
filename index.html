@@ -1129,13 +1129,13 @@ el.previousElementSibling || previousElementSibling(el);
             <div data-browser="jquery" class="browser notjquery">
               <h4>jQuery</h4>
               <div data-lang="javascript" class="code-block language-javascript">
-                  <div class="embedContainer"><iframe width="560" height="315" src="https://www.youtube.com/embed/uhiCFdWeQfA-E" frameborder="0" allowfullscreen></iframe></div>
+                  <div class="embedContainer"><iframe width="560" height="315" src="https://www.youtube.com/embed/uhiCFdWeQfA" frameborder="0" allowfullscreen></iframe></div>
               </div>
             </div>
             <div data-browser="ie8" class="browser ie8">
               <h4>IE8+</h4>
               <div data-lang="javascript" class="code-block language-javascript">
-                <pre><code>if (el.classList)
+                <pre><code>if (el.classList)  ™
   el.classList.remove(className);
 else
   el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
