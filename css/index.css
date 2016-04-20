@@ -146,6 +146,30 @@ header.page-header .inner h1 {
   .share-buttons .share-button.github-stars-button {
     float: none;
   }
+
+  .comparison{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .comparison h3{
+    order: 1;
+  }
+
+  .comparison .browser.ie8, .comparison .browser.ie9{
+    order: 2;
+  }
+
+  .comparison .notjquery{
+    order: 3;
+  }
 }
 .share-buttons .share-button iframe {
   width: 100%;
